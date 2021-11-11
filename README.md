@@ -1,2 +1,2 @@
 # LinuxShellScripts
-一些方便自己使用的Linux的Shell脚本
+一些方便使用的Linux-Shell脚本
