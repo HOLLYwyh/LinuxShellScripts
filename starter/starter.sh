@@ -14,7 +14,8 @@ echo -e 'You can start the tools by inputing the following number:\n
 	 3 - Pycharm\n
 	 4 - CLion\n
 	 5 - Kettle\n
-	 6 - Postman\n'
+	 6 - Postman\n
+	 7 - VPN\n'
 
 # start the tool
 while :
@@ -50,6 +51,10 @@ then
 elif [ $MESSAGE = 6 ]
 then
 	gnome-terminal -t " Postman" -x bash -c " $DEVELOPING_TOOLS_PATH/Postman/Postman;exec bash;"
+
+elif [ $MESSAGE = 7 ]
+then
+	gnome-terminal -t " v2ray" -x bash -c " $WYH_PATH/VPN/Qv2ray/Qv2ray.v2.6.3.AppImage;exec bash;"
 
 fi
 
