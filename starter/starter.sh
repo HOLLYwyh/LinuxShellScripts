@@ -15,7 +15,7 @@ echo -e 'You can start the tools by inputing the following number:\n
 	 4 - CLion\n
 	 5 - Kettle\n
 	 6 - Postman\n
-	 7 - VPN\n'
+	 7 - VPN\n'| lolcat
 
 # start the tool
 while :
@@ -25,7 +25,7 @@ read MESSAGE
 
 if [ $MESSAGE = 0 ]
 then
-	echo 'exit!'
+	echo 'exit!'| lolcat
 	break
 
 elif [ $MESSAGE = 1 ]
